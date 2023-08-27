@@ -26,7 +26,23 @@ body {
     grid-column: 2 / 3;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    padding: 32px;
+}
+
+.fa-solid.fa-magnifying-glass {
+    font-size: 1.5rem;
+}
+
+.searchbar input {
+    border-radius: 15px;
 }
 
 #maincontent {
