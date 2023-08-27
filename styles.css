@@ -38,11 +38,14 @@ body {
 }
 
 .fa-solid.fa-magnifying-glass {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .searchbar input {
     border-radius: 15px;
+    background-color: #e2e8f0;
+    border-style: none;
+    height: 25px;
 }
 
 #maincontent {
