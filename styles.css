@@ -52,6 +52,7 @@ body {
 
 .fa-solid.fa-magnifying-glass {
     font-size: 1.2rem;
+    justify-self: center;
 }
 
 .searchbar input {
@@ -72,6 +73,46 @@ body {
 .headercorner p {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.greeting {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 32px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.greeting img {
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.greeting p {
+    margin: 0;
+}
+
+.greeting .username {
+    font-size: 1.2rem;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.buttons button {
+    background-color: #1992d4;
+    color: white;
+    border-style: none;
+    border-radius: 25px;
+    width: 80px;
+    height: 40px;
 }
 
 #maincontent {
