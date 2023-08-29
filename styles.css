@@ -150,12 +150,13 @@ body {
 
 .yourprojects {
     display: grid;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 50px 10fr;
     grid-template-columns: 1fr;
 }
 
 .yourprojects h1 {
     grid-column: 1 / 7;
+    margin: 10px;
 }
 
 .yourprojects .cards {
@@ -168,9 +169,20 @@ body {
 .card {
     background-color: white;
     margin: 10px;
+    padding: 20px;
+    display: grid;
+    border-left: 5px solid orange;
+    border-radius: 5%;
 }
 
 .card .title {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.cardicons {
+    padding: 15px;
+    display: flex;
+    justify-self: end;
+    gap: 25px;
 }
